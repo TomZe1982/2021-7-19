@@ -61,6 +61,33 @@ class StudentTest {
 
     }
 
+    @Test
+    @DisplayName("Test equals")
+    public void checkEqualsTrue(){
+        //Given
+        Student student1 = new Student("Schuhmacher", "Michael", 1234567);
+        Student student2 = new Student("Schuhmacher", "Michael", 1234567);
+        //When
+        boolean actual = student1.equals(student2);
+
+        //Then
+        assertTrue(actual);
+
+    }
+
+    @Test
+    @DisplayName("Test equals")
+    public void checkEqualsFalse(){
+        //Given
+        Student student1 = new Student("Schuhmacher", "Michael", 1234567);
+        Student student2 = new Student("Schuhmacher", "Michae", 1234567);
+        //When
+        boolean actual = student1.equals(student2);
+
+        //Then
+        assertFalse(actual);
+
+    }
 
 
 }

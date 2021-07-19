@@ -1,10 +1,12 @@
 package model;
 
 
-    public class Student {
-       private String sirName = "Busch";
-       private String firstName ="Wilhelm";
-       private int matrNr = 1234567;
+import java.util.Objects;
+
+public class Student {
+       private String sirName;
+       private String firstName;
+       private int matrNr;
 
        public Student(String sirName, String firstName, int matrNr){
         setFirstName(firstName);
@@ -43,6 +45,18 @@ package model;
            return studentString;
         }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Student student = (Student) o;
+        return matrNr == student.matrNr && Objects.equals(sirName, student.sirName) && Objects.equals(firstName, student.firstName);
     }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(sirName, firstName, matrNr);
+    }
+}
 
 
