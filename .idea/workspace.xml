@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4233a6c9-9aae-4625-8ad3-af1275b2d611" name="Default Changelist" comment="" />
+    <list default="true" id="4233a6c9-9aae-4625-8ad3-af1275b2d611" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/neuefische/classesobjects/AppMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/de/neuefische/classesobjects/AppMainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Student/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Student/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StudentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/model/StudentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Student/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Student/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/StudentTest.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,33 +27,58 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1vWsVUMdYKNOE83QZi1FTQ1rYco" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="Student" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="de.neuefische.classesobjects" />
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StudentTest">
+  <component name="RunManager" selected="Application.AppMain">
+    <configuration name="AppMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.neuefische.classesobjects.AppMain" />
+      <module name="Classes-Objects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.neuefische.classesobjects.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -53,28 +92,50 @@
     </configuration>
     <configuration name="StudentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Classes-Objects" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="StudentTest" />
+      <option name="PACKAGE_NAME" value="model" />
+      <option name="MAIN_CLASS_NAME" value="model.StudentTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StudentTest.checkForMatrNr" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Classes-Objects" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="StudentTest" />
-      <option name="METHOD_NAME" value="checkForMatrNr" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="StudentTest.checkForSirName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Classes-Objects" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="StudentTest" />
+      <option name="PACKAGE_NAME" value="model" />
+      <option name="MAIN_CLASS_NAME" value="model.StudentTest" />
       <option name="METHOD_NAME" value="checkForSirName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentTest.checkStringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Classes-Objects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="model" />
+      <option name="MAIN_CLASS_NAME" value="model.StudentTest" />
+      <option name="METHOD_NAME" value="checkStringTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentTest.checkToStringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Classes-Objects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="model" />
+      <option name="MAIN_CLASS_NAME" value="model.StudentTest" />
+      <option name="METHOD_NAME" value="checkToStringTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -82,8 +143,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AppMain" />
         <item itemvalue="JUnit.StudentTest" />
-        <item itemvalue="JUnit.StudentTest.checkForMatrNr" />
+        <item itemvalue="JUnit.StudentTest.checkToStringTest" />
+        <item itemvalue="JUnit.StudentTest.checkStringTest" />
         <item itemvalue="JUnit.StudentTest.checkForSirName" />
       </list>
     </recent_temporary>
@@ -96,11 +159,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1626689202513</updated>
-      <workItem from="1626689204002" duration="2426000" />
+      <workItem from="1626689204002" duration="11003000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
